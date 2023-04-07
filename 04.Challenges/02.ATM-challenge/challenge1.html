@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM in this Game</title>
+  </head>
+
+  <body>
+    <h1>ATM</h1>
+    <p id="error_para" style="color: red"></p>
+
+    <form onclick="transaction(event)">
+      <input type="number" id="inputAmount" />
+      <!--min="99" max="100001" -->
+      <label for="">Select Preferd Note Type</label>
+      <select name="note preference" id="notePreference">
+        <option value="500">500</option>
+        <option value="100">100</option>
+        <option value="50">50</option>
+        <option value="20">20</option>
+        <option value="10">10</option>
+        <option value="5">5</option>
+        <option value="1">1</option>
+      </select>
+      <button>Proceed</button>
+    </form>
+
+    <script src="./challenge1.js"></script>
+  </body>
+</html>
