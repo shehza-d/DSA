@@ -10,4 +10,3 @@ const myFun = (arr) => {
 
 console.log(myFun(arr)); //-2
 cds;
-jo;
