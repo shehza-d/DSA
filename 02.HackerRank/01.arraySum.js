@@ -3,10 +3,10 @@
 const arr = [2, 4, 2, 9, 6, 5, 9];
 
 // OLD CODE ES5
-function arraySum(ar) {
+function arraySum(arr) {
   let result = 0;
-  for (let i = 0; i < ar.length; i++) {
-    result = result + ar[i];
+  for (let i = 0; i < arr.length; i++) {
+    result = result + arr[i];
   }
   return result;
 }
