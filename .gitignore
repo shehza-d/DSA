@@ -1,5 +1,9 @@
 compiledBinary
 /compiledBinary
 */compiledBinary
+
+# this one is working in infinite depth ↓
 **/compiledBinary
 
+**/compiled
+node_modules/

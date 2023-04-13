@@ -17,6 +17,12 @@ sudo apt install build-essential
 gcc --version && g++ --version
 ```
 
+To compile and Run C++ program
+
+```
+g++ FileName.cpp -o compiled &&  ./compiled
+```
+
 To compile C program
 
 ```
