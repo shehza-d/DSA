@@ -8,13 +8,23 @@
 
 <br>
 
+[Introduction to Algorithms MIT YouTube playlist ! (2020)](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY)
+
+[Introduction to Algorithms MIT YouTube playlist ! (2006)](https://youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+
+[DSA BY MIT !](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
+
 https://www.coursera.org/learn/algorithms-part1
+
+https://www.coursera.org/specializations/data-structures-algorithms
+
+https://www.coursera.org/specializations/algorithms
 
 https://grow.google/intl/ssa/programmes
 
-https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/
+https://www.interviewbit.com/blog/best-courses-for-data-structures-and-algorithms/
 
-[Free DSA Courses](https://www.freecodecamp.org/news/these-are-the-best-free-courses-to-learn-data-structures-and-algorithms-in-depth-4d52f0d6b35a/)
+https://www.freecodecamp.org/news/these-are-the-best-free-courses-to-learn-data-structures-and-algorithms-in-depth-4d52f0d6b35a/
 
 <br>
 Download compiler for Linux
@@ -48,3 +58,5 @@ To Run C program
 <a href="https://leetcode.com/shehza_d/" target="blank">Challenge Accepted ?<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="samadpls" height="40" width="40" /></a>
 
 <h3 align="center">Show some ❤ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> some repositories</h3>
+
+https://youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
