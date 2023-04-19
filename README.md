@@ -7,6 +7,16 @@
 ### A practice repo for C++ according to class 12th (Federal Board) and planing of Learning Data Structure and Algorithm (DSA) and OOP with CPP
 
 <br>
+
+https://www.coursera.org/learn/algorithms-part1
+
+https://grow.google/intl/ssa/programmes
+
+https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/
+
+[Free DSA Courses](https://www.freecodecamp.org/news/these-are-the-best-free-courses-to-learn-data-structures-and-algorithms-in-depth-4d52f0d6b35a/)
+
+<br>
 Download compiler for Linux
 
 ```
