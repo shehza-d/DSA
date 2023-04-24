@@ -46,7 +46,7 @@ const question4 = (arr) => {
 
 // Testing
 console.log(
-  question4([
+  question3([
     [12, -3, 2, 14],
     [11, -2, -8, 4],
     [3, 0, 0, -5],
