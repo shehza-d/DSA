@@ -29,7 +29,7 @@ const question4 = (arr) => {
     if (num < 1) return false;
     if (num === 1) return null;
 
-    for (let i = 2; i < num; i++) {
+    for (let i = 2; i <= num / 2; i++) {
       if (num % i == 0) return false;
     }
     return true;
@@ -46,7 +46,7 @@ const question4 = (arr) => {
 
 // Testing
 console.log(
-  question3([
+  question4([
     [12, -3, 2, 14],
     [11, -2, -8, 4],
     [3, 0, 0, -5],
