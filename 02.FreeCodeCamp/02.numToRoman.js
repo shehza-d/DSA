@@ -1,29 +1,31 @@
-const convertToRoman = (roman) => {
+const convertToRoman = (num) => {
   const romanTable = {
-    1: "I",
-    4: "IV",
-    5: "V",
-    10: "X",
-    50: "L",
-    100: "C",
-    500: "D",
-    1000: "M",
+    M: 1000,
+    CM: 900,
+    D: 500,
+    CD: 400,
+    C: 100,
+    XC: 90,
+    L: 50,
+    XL: 40,
+    X: 10,
+    IX: 9,
+    V: 5,
+    IV: 4,
+    I: 1,
   };
 
-  let result = 0;
-  for (let i = 0; i < roman.length; i++) {
-    const curr = romanTable[roman[i]];
-    const next = romanTable[roman[i + 1]];
+  let result = "";
 
-    console.log(curr, next);
+  for (let key in romanTable) {
+    const value = romanTable[key];
 
-    if (curr < next) {
-      result -= curr;
-    } else {
-      result += curr;
+    while (num >= value) {
+      result += key;
+      num -= value;
     }
   }
   return result;
 };
 
-console.log(convertToRoman(9));
+console.log(convertToRoman(798)); // DCCXCVIII
