@@ -1,4 +1,4 @@
-const romanToInt = (roman) => {
+const romanToInt = (roman: string): number => {
   roman = roman.toUpperCase();
   const romanTable = {
     I: 1,
