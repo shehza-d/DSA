@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/decode-the-slanted-ciphertext/
-//not done
+//not don
 
 const decodeCiphertext = (str, rows) => {
   let result = "";
