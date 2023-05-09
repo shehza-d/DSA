@@ -1,4 +1,5 @@
-// const filter = (arr, fn) => arr.filter(fn);
+// https://leetcode.com/problems/filter-elements-from-array/
+
 const filter = (arr, fn: Tfn): number[] => {
   let result: number[] = [];
   for (let i = 0; i < arr.length; i++) {
@@ -22,3 +23,5 @@ const fn3 = (n) => n + 1;
 console.log(filter(arr3, fn3));
 
 type Tfn = (n: number, i: number) => number;
+
+// const filter = (arr, fn) => arr.filter(fn);
