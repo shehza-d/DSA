@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/memoize/
 
-// function memoize(fn: Fn): Fn {
+// const memoize=(fn: Fn): Fn =>{
 const memoize = (fn) => {
   const cache = {};
 
