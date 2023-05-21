@@ -9,3 +9,14 @@ console.log(containsDuplicate([5, 6, 7, 8])); //false
 console.log(containsDuplicate([1, 2, 3, 1])); //true
 
 // checking if array has duplicate values
+
+//solution 2
+const containsDuplicate = (nums: number[]): boolean => {
+  nums.sort(); // sorting the array and then comparing 1 index with next
+  for (let i = 0; i < nums.length - 1; i++) {
+    if (nums[i] == nums[i + 1]) {
+      return true;
+    }
+  }
+  return false;
+};
