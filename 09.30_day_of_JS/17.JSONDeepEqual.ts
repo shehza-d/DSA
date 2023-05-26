@@ -29,7 +29,7 @@ const areDeeplyEqual = (o1, o2) => {
   if (typeof o1 != "object" || typeof o2 != "object") return false;
 
   if (Array.isArray(o1) !== Array.isArray(o2)) return false;
-kk
+k
   if (Object.keys(o1).length != Object.keys(o2).length) return false;
 
   for (const key in o1) {
