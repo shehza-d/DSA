@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/array-prototype-last/
+// question done type notdone
 
 declare global {
   interface Array<T> {

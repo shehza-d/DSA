@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/debounce/
-
+// undone
 const debounce = (fn: F, t: number): F => {
   let timer;
   return function (...args) {

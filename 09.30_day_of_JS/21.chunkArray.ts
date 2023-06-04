@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/chunk-array
-
+// done!
 const chunk = (arr: number[], size) => {
   let result: number[][] = [];
   let temp: number[] = [];
