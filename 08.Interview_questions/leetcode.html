@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <input
+        onkeydown=""
+        type="tel"
+        id="phone"
+        maxlength="16"
+        placeholder="mobile number"
+        autocomplete="off"
+      />
+      <div><label for="phone">(123) 456-7890</label></div>
+    </div>
+
+    <script type="module">
+      const input = document.querySelector("#phone");
+
+      const handleKeyDown = (event) => {
+        const numericKeys = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+        const allowedKeys = [
+          "Backspace",
+          "Tab",
+          "Delete",
+          "ArrowLeft",
+          "ArrowRight",
+          "Control",
+        ];
+
+        if (
+          !numericKeys.includes(event.key) &&
+          !allowedKeys.includes(event.key)
+        ) {
+          event.preventDefault();
+          return;
+        }
+      };
+
+      let phoneNo = "";
+      const handleKeyUp = (event) => {
+        phoneNo = input.value;
+        if (phoneNo.length === 3) input.value = `(${phoneNo}) `;
+        if (phoneNo.length === 9) input.value = `${phoneNo}-`;
+        if (phoneNo.length > 13) return;
+      };
+
+      input.addEventListener("keydown", handleKeyDown);
+      input.addEventListener("keyup", handleKeyUp);
+    </script>
+  </body>
+</html>
