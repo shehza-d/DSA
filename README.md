@@ -63,6 +63,6 @@ To Run C program
 
 <a href="https://leetcode.com/shehza_d/" target="blank">Challenge Accepted ?<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="samadpls" height="40" width="40" /></a>
 
-<h3 align="center">Show some ❤ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> this repository</h3>
+<h3 align="center">Show some ❤️ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> this repository</h3>
 
 https://youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp
