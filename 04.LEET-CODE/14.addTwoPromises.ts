@@ -2,7 +2,6 @@ type P = Promise<number>;
 
 const addTwoPromises = async (promise1: any, promise2: any): P => {
   const answers = await Promise.all([promise1, promise2]);
-  console.log("answers", answers);
 
   const sum = answers[0] + answers[1];
   return new Promise((resolve) => resolve(sum));
