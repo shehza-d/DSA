@@ -10,7 +10,9 @@
 
 ### [Puzzles by Harvard](https://cs50.harvard.edu/x/2023/puzzles/)
 
-### A practice repo for C++ according to class 12th (Federal Board) and planing of Learning Data Structure and Algorithm (DSA) and OOP with CPP
+A practice repo for C++ according to class 12th (Federal Board) and planing of Learning Data Structure and Algorithm (DSA) and OOP with CPP
+
+[Learn Data Structures with Amazon CodeWhisperer](https://youtube.com/playlist?list=PL5bUlblGfe0IOZEW8KBAzc1bCW8UcarAD&si=PtxWdvDY-WUG3irJ) 
 
 <br>
 
