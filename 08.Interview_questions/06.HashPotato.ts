@@ -2,6 +2,9 @@
 // Reverse a string without changing the position of special char in string
 // ab,c => cb,a
 
+// https://youtu.be/0gOUxVKFv74
+
+// Brute force
 const reverseOnlyLetters = (str: string): string => {
   //
   const insertAtIndex = (str: string, substring: string, index: number) =>
@@ -31,7 +34,33 @@ const reverseOnlyLetters = (str: string): string => {
   return reverseStringWithoutSpecialChar;
 };
 
-// const str = "ab-cd"; // "dc-ba"
-const str = "aaa!bC-dEf-g-h!Ij"; // "j-Ih-gfE-dCba"
+// Optimized Two Pointer Approach
+const reverseOnlyLetters = (str: string) => {
+  const alphabetRegex = /^[A-Za-z]+$/;
+  let arrayOfStr = str.split("");
+
+  let start = 0;
+  let end = str.length - 1;
+
+  while (start < end) {
+    if (!str[start].match(alphabetRegex)) start++;
+    else if (!str[end].match(alphabetRegex)) end--;
+    else {
+      let temp = arrayOfStr[start];
+      arrayOfStr[start] = arrayOfStr[end];
+      arrayOfStr[end] = temp;
+
+      start++;
+      end--;
+    }
+  }
+
+  return arrayOfStr.join("");
+};
+
+const str = "abc-d"; // "dcb-a"
+const str = "-aaa!bC-dEf-g-h!Ij"; // "-jIh!gf-EdC-b-a!aa"
+const str = "7_28]"; // "7_28]"
+const str = "z<*zj"; // "j<*zz"
 
 console.log(reverseOnlyLetters(str));
