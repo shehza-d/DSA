@@ -11,6 +11,7 @@
  *     }
  * }
  */
+// https://youtu.be/5cU1ILGy6dM
 
 const minDepth = (root: any): number => {
   if (!root) return 0;
