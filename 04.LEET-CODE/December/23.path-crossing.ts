@@ -19,10 +19,10 @@ const isPathCrossing = (path: string): boolean => {
   return false;
 };
 
-// const path = "NES"; // false
-// const path = "NESWW"; // true
-// const path = "SN"; // true
-// const path = "NNSWWEWSSESSWENNW"; // true
+const path = "NES"; // false
+const path = "NESWW"; // true
+const path = "SN"; // true
+const path = "NNSWWEWSSESSWENNW"; // true
 const path = "ENNNNNNNNNNNEEEEEEEEEESSSSSSSSSS"; // false
 
 console.log(isPathCrossing(path));
