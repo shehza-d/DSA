@@ -15,6 +15,6 @@ const numDecodings = (s: string): number => {
 
 // const s = "12"; // 2
 // const s = "226"// 3
-const s = "06"// 0
+// const s = "06"// 0
 
 console.log(numDecodings(s));
