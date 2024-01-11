@@ -1,28 +1,19 @@
 const passThePillow = (n: number, time: number): number => {
-  //   if (time < n) return time - n + 1;
+  if (n > time) return time + 1;
 
-  //   while (time) {
-  //     if (personHoldingPillow > n) personHoldingPillow--;
-  //     else personHoldingPillow++;
-  //     time--;
-  //   }
-  let personHoldingPillow = 1;
+  const cyclesCompleted = Math.floor(time / (n - 1));
+  const jumpsLeft = time % (n - 1);
 
-  let cycles = Math.ceil(time / n);
-
-  for (let i = 0; i < cycles; i++) {
-    // if(!time)break
-    if (cycles % 2 === 0) personHoldingPillow -= 4;
-    else personHoldingPillow += 4;
-    // time-n
-  }
-
-  return personHoldingPillow;
+  // if no of cyclesCompleted are even we will go from start vice versa
+  if (cyclesCompleted % 2 === 0) return 1 + jumpsLeft;
+  else return n - jumpsLeft;
 };
 
-// const n = 4, time = 5; // 2
-// const n = 4, time = 2; // 3
-const n = 4,
-  time = 10; // 3
+const n = 4,  time = 5;   // 2
+const n = 4,  time = 10;  // 3
+const n = 3,  time = 2;   // 3
+const n = 10, time = 12;  // 7
+const n = 10, time = 9;   // 10
+const n = 18, time = 38;  // 5
 
 console.log(passThePillow(n, time));
