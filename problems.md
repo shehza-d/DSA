@@ -14,6 +14,7 @@
 | 242        | Sorting / Hash Table  | [Valid Anagram](https://leetcode.com/problems/valid-anagram)                                                                         |
 | 1876       | Sliding Window        | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) |
 | 232        | OOP/Design            | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)                                           |
+| 1160       | Hash Table / String   | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters)             |
 
 ## Medium
 

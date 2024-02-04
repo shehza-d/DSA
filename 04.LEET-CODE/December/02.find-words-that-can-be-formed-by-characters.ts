@@ -1,3 +1,6 @@
+// 1160. Find Words That Can Be Formed by Characters
+// https://leetcode.com/problems/find-words-that-can-be-formed-by-characters
+
 const countCharacters = (words: string[], chars: string): number => {
   let result = 0;
   const wordBank = new Array(26).fill(0);
@@ -32,8 +35,7 @@ const countCharacters = (words: string[], chars: string): number => {
   return result;
 };
 
-const words = ["cat", "bt", "hat", "tree"],
-  chars = "atach"; // 6
-// const words = ["cat","bt","hat","tree"], chars = "atach"// 6
+const words = ["cat", "bt", "hat", "tree"], chars = "atach"; // 6
+const words = ["cat","bt","hat","tree"], chars = "atach"// 6
 
 console.log(countCharacters(words, chars));
