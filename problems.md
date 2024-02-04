@@ -17,9 +17,10 @@
 
 ## Medium
 
-| Problem No | Topic               | Name/Link                                                                                                                      |
-| ---------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 1624       | Hash Table / String | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters) |
-| 2582       | Math (interesting)  | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow)                                                               |
-| 14         | String / Trie       | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                   |
-| 2264       | String              | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)                   |
+| Problem No | Topic                  | Name/Link                                                                                                                      |
+| ---------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1624       | Hash Table / String    | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters) |
+| 2582       | Math (interesting)     | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow)                                                               |
+| 14         | String / Trie          | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                                                   |
+| 2264       | String                 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)                   |
+| 643        | Sliding Window / Array | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)                                         |

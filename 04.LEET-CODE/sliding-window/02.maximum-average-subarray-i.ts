@@ -1,3 +1,5 @@
+// 643 https://leetcode.com/problems/maximum-average-subarray-i
+
 const sum = (arr) => {
   let totalSum = 0;
   arr.forEach((num) => (totalSum += num));
