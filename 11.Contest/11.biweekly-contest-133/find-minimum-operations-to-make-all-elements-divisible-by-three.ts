@@ -1,3 +1,4 @@
+// https://leetcode.com/contest/biweekly-contest-133/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/
 const minimumOperations = (nums: number[]): number => {
   let operations = 0;
 
