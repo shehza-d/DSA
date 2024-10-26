@@ -1,11 +1,9 @@
 {
-	"files.associations": {
-		"\"*.css\"": "\"tailwindcss\"",
-		"*.css": "tailwindcss",
-		"iostream": "cpp",
-		"ostream": "cpp"
-	},
-	"cSpell.words": [
-		"DSA"
-	]
+  "files.associations": {
+    "\"*.css\"": "\"tailwindcss\"",
+    "*.css": "tailwindcss",
+    "iostream": "cpp",
+    "ostream": "cpp"
+  },
+  "cSpell.words": ["DSA"]
 }
