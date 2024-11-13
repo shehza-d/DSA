@@ -7,3 +7,5 @@ compiledBinary
 
 **/compiled
 node_modules/
+__MACOSX
+.DS_Store
