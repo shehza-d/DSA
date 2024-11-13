@@ -9,7 +9,7 @@ int main()
 
 	while (t--)
 	{
-		cout <<"testin "<< t << endl;
+		cout << "testin " << t << endl;
 	}
 
 	return 0;
