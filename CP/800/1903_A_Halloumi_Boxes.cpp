@@ -10,8 +10,21 @@ int main()
 
     while (t--)
     {
-        cout << "testing3 " << t << endl;
-    }
+        int n, k;
+        cin >> n >> k;
 
-    return 0;
+        vector<int> arr(n);
+
+        for (int i = 0; i < n; i++)
+            cin >> arr[i];
+
+        if (k == 1 && !is_sorted(arr.begin(), arr.end()))
+        {
+            cout << "NO" << endl;
+        }
+        else
+        {
+            cout << "YES" << endl;
+        }
+    }
 }
