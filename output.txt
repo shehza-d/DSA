@@ -1,7 +1,5 @@
-CALICOomputers
-licorice
-CALICOomprehensible
-optimize
-CALICO
-iconoclast
-bigben
+YES
+YES
+YES
+YES
+NO
