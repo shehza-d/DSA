@@ -2,8 +2,13 @@
   "files.associations": {
     "\"*.css\"": "\"tailwindcss\"",
     "*.css": "tailwindcss",
+    ".env*": "dotenv",
     "iostream": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "stdio.h": "c",
+    "cmath": "cpp",
+    "random": "cpp",
+    "iosfwd": "cpp"
   },
   "cSpell.words": ["DSA"]
 }
