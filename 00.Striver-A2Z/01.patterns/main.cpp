@@ -2,6 +2,7 @@
 using namespace std;
 
 // https://youtube.com/live/ntMwdzgG8ao?feature=share
+// https://takeuforward.org/strivers-a2z-dsa-course/must-do-pattern-problems-before-starting-dsa/
 
 void pattern1(int n)
 {
@@ -126,4 +127,3 @@ int main()
 	// pattern7(3);
 	pattern8(3);
 }
-// https://youtube.com/playlist?list=PL2sQdFoGnLIgTJ4hP3ab4HoPOe4BT4ose&si=NAJw9Ti_sH0yVvK2
