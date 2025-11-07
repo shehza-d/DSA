@@ -1,4 +1,3 @@
-// https://calico.cs.berkeley.edu/files/calico-fa23/contest.zip
 #include <iostream>
 #include <bits/stdc++.h>
 #include <string>
@@ -28,7 +27,7 @@ int main(void)
 		int time;
 		cin >> time;
 
-		// agar time 180 se zada hy tw canceled 
+		// agar time 180 se zada hy tw canceled
 		if (time >= 180)
 		{
 			cout << "canceled" << endl;
@@ -42,7 +41,7 @@ int main(void)
 			continue;
 		}
 
-		// divide by 10 se last ka zero remove ho jata hy 
+		// divide by 10 se last ka zero remove ho jata hy
 		cout << repeat_string("berkeley", time / 10) + "time" << endl;
 	}
 	return 0;
