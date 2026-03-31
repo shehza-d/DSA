@@ -1,4 +1,6 @@
-# [Binary Search Beginner to Advanced | C++, Java, Python | Notes + Contest](https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF)
+# Binary Search Beginner to Advanced | C++, Java, Python | Notes + Contest
+
+(a2z striver)
 
 After reviewing many comments on the already existing playlists, we found that people were facing the following issues:
 
