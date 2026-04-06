@@ -8,6 +8,8 @@
 
 ### [Best DSA Course Free](https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA)
 
+### [Notes](https://cs50.harvard.edu/x/notes/5/)
+
 ### [Puzzles by Harvard](https://cs50.harvard.edu/x/2023/puzzles/)
 
 A practice repo for C++ according to class 12th (Federal Board) and planing of Learning Data Structure and Algorithm (DSA) and OOP with CPP

@@ -6,6 +6,7 @@ compiledBinary
 **/compiledBinary
 
 **/compiled
+**/binary
 node_modules/
 __MACOSX
 .DS_Store

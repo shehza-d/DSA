@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;       // allows use of cout, cin, etc. without std::
 
@@ -22,4 +23,17 @@ class Node {
 	private:
 		int object;
 		Node *nextNode;
+}
+
+
+class List {
+	public:
+		List () {    // constructor
+			headNode = new Node ();
+			headNode->setNext(NULL);
+			currentNode = NULL;
+			size = 0;
+		}
+
+
 }
