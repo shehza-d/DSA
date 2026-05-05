@@ -118,12 +118,12 @@ void pattern8(int n)
 
 int main()
 {
-	// pattern1(6);
-	// pattern2(3);
-	// pattern3(5);
-	// pattern4(5);
-	// pattern5(6);
-	// pattern6(5);
-	// pattern7(3);
-	pattern8(3);
+	 pattern1(6);
+	 pattern2(5);
+	 pattern3(5);
+	 pattern4(5);
+	 pattern5(6);
+	 pattern6(5);
+	 pattern7(5);
+	 pattern8(5);
 }
